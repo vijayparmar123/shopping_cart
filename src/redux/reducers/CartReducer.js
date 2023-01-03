@@ -3,16 +3,10 @@ import {GET_NUMBER_CART,ADD_CART, DECREASE_QUANTITY, INCREASE_QUANTITY, DELETE_C
 const initProduct = {
     numberCart:0,
     Carts:[],
-    // _products:[]
 }
 
 function Cart(state = initProduct,action){
     switch(action.type){
-        // case GET_ALL_PRODUCT: 
-        //     return{
-        //         ...state,
-        //         _products:action.payload
-        //     }
         case GET_NUMBER_CART:
                 return{
                     ...state
