@@ -129,7 +129,7 @@ function ShoppingCart({ container }) {
                   <IMG src={product.image} alt={product.title} />
                 </Box>
                 <ProductDetails>
-                  <h6>{product.title}</h6>
+                  <h6>{product.name}</h6>
                   <Box sx={{ color: "black" }}>
                     ${product.price} x {product.quantity}
                   </Box>
